@@ -28,5 +28,5 @@ jobs:
 
       # run tests!
       - run: npm run test
-      # - codecov/upload:
-      #     file: "./coverage/clover.xml"
+      - codecov/upload:
+          file: "./coverage/clover.xml"
